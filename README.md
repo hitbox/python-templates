@@ -40,7 +40,7 @@ echo venv >> .gitignore
 
 ## Virtual Environment
 
-Projects are kept independent in virtual environments. Even if they have not external dependencies.
+Projects are kept independent in virtual environments. Even if they have no external dependencies.
 
 ```sh
 # create virtual environment
