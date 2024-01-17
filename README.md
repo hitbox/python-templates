@@ -80,7 +80,8 @@ A `requirements.txt` file for dependencies is working fine for me.
 - Prefer, if you can, running the task as the same user you developed under.
 
 - If many changes are needed, it is easier to:
-  1. export to XML
-  2. edit
-  3. remove existing tasks
-  4. import updated XML
+
+1. export to XML
+2. edit
+3. remove existing tasks
+4. import updated XML
