@@ -1,5 +1,9 @@
 # Opinionated Python Templates
 
+[Scheduled Tasks](schedule.md)
+
+[Code Repository](repos.md)
+
 ## Common command line and Scheduled Task template
 
 [service.py](service.py)
