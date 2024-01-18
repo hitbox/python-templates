@@ -4,6 +4,8 @@
 
 [Code Repository](repos.md)
 
+[Web Apps](www.md)
+
 ## Common command line and Scheduled Task template
 
 [service.py](service.py)
