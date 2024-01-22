@@ -26,3 +26,6 @@
 - `source`-able file for populating environment variables in the instance dir.
 - Prefer doing as little as possible in templates. Mostly just loop over data structures and render attributes; or very simple flow control.
 
+## HTML/CSS/JavaScript
+
+My strategy for the frontend is to do as much as possible with HTML. Styling is almost always necessary, for example to make grids. Then if necessary, or worth the effort, some JavaScript to make the frontend more convenient.

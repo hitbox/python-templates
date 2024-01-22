@@ -32,3 +32,17 @@ python -m pip install --upgrade pip
 ## External Dependencies
 
 A `requirements.txt` file for dependencies is working fine for me.
+
+I avoid external dependencies but some I install without hesitation. Things like:
+
+- [Flask](https://flask.palletsprojects.com)
+- [Requests](https://requests.readthedocs.io)
+- [SQLAlchemy](https://www.sqlalchemy.org)
+- [WTForms](https://wtforms.readthedocs.io)
+- [marshmallow](https://marshmallow.readthedocs.io)
+
+If a major project like these, or Python itself, is incompatible with the code I've written, I fix my code.
+
+My general strategy has been to develop an application, keeping the dependencies updated to their newest version. Deploy with newest Python and dependencies in a virtual environment which locks everything down in production. Then, when the app needs any work, I pull it up in a development environment and update everything and fix any problems; and then do my work on the app.
+
+I've pinned version numbers before but I don't like it. I want the updates from the major projects and if that means a lesser project is now incompatble then it has to go.
