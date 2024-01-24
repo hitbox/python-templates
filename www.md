@@ -6,6 +6,7 @@
 
 ## Flask Directory Structure
 
+```
 └── projectname/
     ├── app.py .............. App factory, hook up blueprints and extensions
     ├── extensions.py ....... Create Flask extensions
@@ -18,6 +19,7 @@
     │   ├── base.html ....... Inherits skeleton.html, every other template should inherit this.
     │   └── skeleton.html ... Bare minimum html template.
     └── views.py ............ Blueprints for routes/views and Flask subcommands
+```
 
 - Pluggable views can be difficult to make and worth the effort.
 - WTForms probably has what you want.
